@@ -1,0 +1,90 @@
+/*CSS Reset Rule*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav{
+	background: rgb(99 96 145) !important;
+	
+	}
+nav li a{
+		font-size: 1rem !important;
+		font-weight: 600 !important;
+
+}
+
+.navbar-brand{
+			 font-family: "Spicy Rice", serif !important;
+}
+
+#landing {
+		  background-image: url(./images/banner.jpg);
+		  background-size: cover;
+		  background-repeat: no-repeat;
+}
+
+.img-b-color{
+			border-color: rgb(99 96 145) !important;
+
+}
+h1,h2,h3,h4{
+			font-family: "Spicy Rice", serif !important;
+
+}
+
+#tools {
+		  background-color: rgb(99 96 145) !important;
+		  background-size: cover;
+		  background-repeat: no-repeat;
+}
+.iframe{
+		width: 100% !important;
+		height: 50vh !important;
+}
+
+#contact a{
+		   color: rgb(99 96 145) !important;
+		   font-size: 2rem !important;
+		   font-weight: 600 !important;
+		   text-align: center !important;
+}
+
+.btn{
+	width: 100% !important;
+}
+.projectimg{
+	cursor: pointer !important;
+}
+
+#footer{
+	background: rgb(99 96 145) !important;
+	
+	
+	}
+foter p a{
+		text-decoration: none !important;
+	}
+.top {
+	  position: fixed;
+	  bottom: 10px;
+	  right: 10px;
+	  max-width: 40px;
+	  max-height: 40px;
+	  width: 100%;
+	  height: 100%;
+	  padding: .5px;
+	  border-radius: 8px;
+	  justify-content: center;
+	  background: rgb(99 96 145) !important;
+	  font-size: 1rem;
+	  font-weight: 800;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
